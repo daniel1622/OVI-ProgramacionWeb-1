@@ -25,4 +25,12 @@ $(document).ready(function(){
 
 	});
 
+		$('.ir-abajo').click(function(){
+        $('body, html').animate({
+              scrollTop: '570px' 
+        },);
+
+	});
+
+
 });
