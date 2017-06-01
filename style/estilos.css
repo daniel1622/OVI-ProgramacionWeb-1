@@ -84,11 +84,11 @@ img#logo{
 
 #myIframe {
 position: relative;
-padding-bottom: 55.25%;
+padding-bottom: 80.25%;
 padding-top: 30px;
 height: 0;
 overflow: hidden; 
-border: solid black 1px;
+
 } 
 #myIframe iframe {
 position: absolute;
@@ -96,6 +96,8 @@ top: 0;
 left: 0;
 width: 100%;
 height: 100%;
+padding: 5px;
+border: 2px dotted  #2196F3;
 
 }
 
@@ -105,6 +107,7 @@ footer{
 	height: 20%;
 	margin-top: 10px;
 	border-top: 3px solid #005883;
+	background-color: #005883;
 
 }
 
@@ -115,4 +118,64 @@ footer{
 
 #footer-letra{
 font-size: 12px;
+}
+
+h1{
+	padding: 30px;
+	text-align: center;
+	color: #1565C0;
+	font-size: 34px;
+}
+p{
+	text-align: right: ;
+	width: 1200px;
+	height: auto;
+	margin-left: 66px;
+	padding: 20px;
+	font-size: 19px;
+	color: #000000;
+}
+
+/*ESTILOS PAGINA INICIO.HTML*/
+
+#msql_y_php{
+	display: block;
+	width: 500px;
+	height: 300px;
+	margin-left: 450px;
+	margin-top: 20px;
+}
+
+/* estilos pagina Autores*/
+
+#contenedorAutor{
+	display: block;
+	width: 500px;
+	height: 500px;
+	margin-left: 450px;
+	margin-top: 20px;
+	border: 2px dotted  #2196F3;
+}
+#contenedorAutor:hover{
+	border: 3px dotted #76FF03;
+	border-radius: 5px;
+}
+
+#img_autor{
+    text-align: center;
+    align-content: center;
+    width: 200px;
+	height: 270px;
+	margin-left: 150px;
+	margin-top: 20px;
+}
+#img_autor{
+	border-radius: 5px;
+}
+
+h2{
+	font-size: 22px;
+	color: #3F51B5;
+	margin-left: 70px;
+	margin-top: 30px;
 }
